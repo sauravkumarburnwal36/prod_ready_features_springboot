@@ -1,0 +1,4 @@
+2024-12-12 17:33:02 INFO  c.e.p.p.ProdReadyFeaturesApplication - Starting ProdReadyFeaturesApplication using Java 22.0.1 with PID 15352 (H:\springboot_0_100_codingshuttle\week4\prod_ready_features\target\classes started by user in H:\springboot_0_100_codingshuttle\week4\prod_ready_features)
+2024-12-12 17:33:02 DEBUG c.e.p.p.ProdReadyFeaturesApplication - Running with Spring Boot v3.3.6, Spring v6.1.15
+2024-12-12 17:33:02 INFO  c.e.p.p.ProdReadyFeaturesApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-12 17:33:02 DEBUG o.s.b.SpringApplication - Loading source class com.example.prod_ready_features.prod_ready_features.ProdReadyFeaturesApplication

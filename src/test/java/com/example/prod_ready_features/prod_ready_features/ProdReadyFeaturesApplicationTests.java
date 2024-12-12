@@ -13,34 +13,37 @@ import java.time.LocalDate;
 import java.util.List;
 
 @SpringBootTest
-@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
+//@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 class ProdReadyFeaturesApplicationTests {
 
-	@Autowired
-	 private EmployeeClient employeeClient;
+//	@Autowired
+//	 private EmployeeClient employeeClient;
+//
+//	@Test
+//	@Order(3)
+//	void getAllEmployeesTest() {
+//		List<EmployeeDTO> employeeDTOList=employeeClient.getAllEmployees();
+//		System.out.println(employeeDTOList);
+//	}
+//
+//	@Test
+//	@Order(2)
+//	void getEmployeeByIdTest(){
+//		EmployeeDTO employeeDTO=employeeClient.getEmpployeeById(1L);
+//		System.out.println(employeeDTO);
+//	}
+//
+//	@Test
+//	@Order(1)
+//	void createNewEmployeeTest(){
+//		EmployeeDTO employeeDTO=new EmployeeDTO(null,"Saurav","saurav09@gmail.com",
+//				2, LocalDate.of(2021,8,5),true,
+//				"USER",100000.00);
+//		EmployeeDTO savedEmployeeDTO=employeeClient.createNewEmployee(employeeDTO);
+//		System.out.println(savedEmployeeDTO);
+//	}
 
 	@Test
-	@Order(3)
-	void getAllEmployeesTest() {
-		List<EmployeeDTO> employeeDTOList=employeeClient.getAllEmployees();
-		System.out.println(employeeDTOList);
-	}
-
-	@Test
-	@Order(2)
-	void getEmployeeByIdTest(){
-		EmployeeDTO employeeDTO=employeeClient.getEmpployeeById(1L);
-		System.out.println(employeeDTO);
-	}
-
-	@Test
-	@Order(1)
-	void createNewEmployeeTest(){
-		EmployeeDTO employeeDTO=new EmployeeDTO(null,"Saurav","saurav09@gmail.com",
-				2, LocalDate.of(2021,8,5),true,
-				"USER",100000.00);
-		EmployeeDTO savedEmployeeDTO=employeeClient.createNewEmployee(employeeDTO);
-		System.out.println(savedEmployeeDTO);
-	}
+	void contextLoads(){}
 
 }

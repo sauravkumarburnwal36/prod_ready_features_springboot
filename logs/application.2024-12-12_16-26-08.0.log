@@ -1,0 +1,12 @@
+2024-12-12 16:26:08 DEBUG o.s.w.s.DispatcherServlet - GET "/actuator/metrics/jvm.info", parameters={}
+2024-12-12 16:26:08 DEBUG o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped to Actuator web endpoint 'metrics-requiredMetricName'
+2024-12-12 16:26:08 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/octet-stream" to []
+2024-12-12 16:26:08 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/vnd.spring-boot.actuator.v3+json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2024-12-12 16:26:08 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [org.springframework.boot.actuate.metrics.MetricsEndpoint$MetricDescriptor@8d61a06]
+2024-12-12 16:26:08 DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+2024-12-12 16:26:08 DEBUG o.s.w.s.DispatcherServlet - GET "/actuator/metrics/jvm.info", parameters={}
+2024-12-12 16:26:08 DEBUG o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped to Actuator web endpoint 'metrics-requiredMetricName'
+2024-12-12 16:26:08 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/octet-stream" to []
+2024-12-12 16:26:08 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2024-12-12 16:26:08 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [org.springframework.boot.actuate.metrics.MetricsEndpoint$MetricDescriptor@622479fa]
+2024-12-12 16:26:08 DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
