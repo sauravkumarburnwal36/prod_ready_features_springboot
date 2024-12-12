@@ -1,0 +1,31 @@
+2024-12-12 18:20:58 DEBUG o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-12-12 18:20:58 DEBUG o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@54965ba9, started on Thu Dec 12 18:04:53 IST 2024
+2024-12-12 18:20:58 DEBUG o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2024-12-12 18:20:58 DEBUG o.s.c.s.DefaultLifecycleProcessor - Bean 'applicationTaskExecutor' completed its stop procedure
+2024-12-12 18:20:58 DEBUG o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147482623
+2024-12-12 18:20:58 DEBUG o.s.c.s.DefaultLifecycleProcessor - Bean 'webServerGracefulShutdown' completed its stop procedure
+2024-12-12 18:20:58 DEBUG o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147481599
+2024-12-12 18:20:58 DEBUG o.s.c.s.DefaultLifecycleProcessor - Bean 'webServerStartStop' completed its stop procedure
+2024-12-12 18:20:58 DEBUG o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase -2147483647
+2024-12-12 18:20:58 DEBUG o.s.c.s.DefaultLifecycleProcessor - Bean 'springBootLoggingLifecycle' completed its stop procedure
+2024-12-12 18:20:58 DEBUG o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-12-12 18:20:58 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-12 18:20:58 DEBUG o.h.i.SessionFactoryImpl - HHH000031: Closing
+2024-12-12 18:20:58 DEBUG o.h.t.s.TypeConfiguration$Scope - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@eb818f2] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@33ab3c0f]
+2024-12-12 18:20:58 DEBUG o.h.s.i.AbstractServiceRegistryImpl - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2024-12-12 18:20:58 DEBUG o.h.b.r.i.BootstrapServiceRegistryImpl - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+2024-12-12 18:20:58 INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-12 18:20:58 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-12-12 18:20:58 DEBUG c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@344c9403: (connection evicted)
+2024-12-12 18:20:58 DEBUG c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@263a062e: (connection evicted)
+2024-12-12 18:20:58 DEBUG c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@67070c15: (connection evicted)
+2024-12-12 18:20:58 DEBUG c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@56aa8b03: (connection evicted)
+2024-12-12 18:20:58 DEBUG c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@728f35a: (connection evicted)
+2024-12-12 18:20:58 DEBUG c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@36688db: (connection evicted)
+2024-12-12 18:20:58 DEBUG c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@283ef04: (connection evicted)
+2024-12-12 18:20:58 DEBUG c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@56ed88a1: (connection evicted)
+2024-12-12 18:20:58 DEBUG c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@31b9e57d: (connection evicted)
+2024-12-12 18:20:58 DEBUG c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3dc7dd48: (connection evicted)
+2024-12-12 18:20:58 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-12-12 18:20:58 INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-12 18:20:58 DEBUG o.s.b.f.s.DisposableBeanAdapter - Custom destroy method 'close' on bean with name 'simpleMeterRegistry' completed
