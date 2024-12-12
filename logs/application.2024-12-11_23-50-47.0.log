@@ -1,0 +1,30 @@
+2024-12-11 23:50:47 DEBUG o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-12-11 23:50:47 DEBUG o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7c173069, started on Wed Dec 11 23:49:32 IST 2024
+2024-12-11 23:50:47 DEBUG o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2024-12-11 23:50:47 DEBUG o.s.c.s.DefaultLifecycleProcessor - Bean 'applicationTaskExecutor' completed its stop procedure
+2024-12-11 23:50:47 DEBUG o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147482623
+2024-12-11 23:50:47 DEBUG o.s.c.s.DefaultLifecycleProcessor - Bean 'webServerGracefulShutdown' completed its stop procedure
+2024-12-11 23:50:47 DEBUG o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147481599
+2024-12-11 23:50:47 DEBUG o.s.c.s.DefaultLifecycleProcessor - Bean 'webServerStartStop' completed its stop procedure
+2024-12-11 23:50:47 DEBUG o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase -2147483647
+2024-12-11 23:50:47 DEBUG o.s.c.s.DefaultLifecycleProcessor - Bean 'springBootLoggingLifecycle' completed its stop procedure
+2024-12-11 23:50:47 DEBUG o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-12-11 23:50:47 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-11 23:50:47 DEBUG o.h.i.SessionFactoryImpl - HHH000031: Closing
+2024-12-11 23:50:47 DEBUG o.h.t.s.TypeConfiguration$Scope - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@647ddc4] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@35823854]
+2024-12-11 23:50:47 DEBUG o.h.s.i.AbstractServiceRegistryImpl - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2024-12-11 23:50:47 DEBUG o.h.b.r.i.BootstrapServiceRegistryImpl - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+2024-12-11 23:50:47 INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-11 23:50:47 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-12-11 23:50:47 DEBUG c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@224c0a37: (connection evicted)
+2024-12-11 23:50:47 DEBUG c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2a6846fe: (connection evicted)
+2024-12-11 23:50:47 DEBUG c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6b554cc5: (connection evicted)
+2024-12-11 23:50:47 DEBUG c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5af485d0: (connection evicted)
+2024-12-11 23:50:47 DEBUG c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@b7ab38a: (connection evicted)
+2024-12-11 23:50:47 DEBUG c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@f34cc41: (connection evicted)
+2024-12-11 23:50:47 DEBUG c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@57948578: (connection evicted)
+2024-12-11 23:50:47 DEBUG c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@49c88e9b: (connection evicted)
+2024-12-11 23:50:47 DEBUG c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@67574969: (connection evicted)
+2024-12-11 23:50:47 DEBUG c.z.h.p.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3209dfe1: (connection evicted)
+2024-12-11 23:50:47 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-12-11 23:50:47 INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
